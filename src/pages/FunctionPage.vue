@@ -1,6 +1,9 @@
 <template>
   <div class="htmlClass">
     <h1>{{ title }}</h1>
+    <h2>{{ fname }}</h2>
+    <h3>{{ lname }}</h3>
+    <h4>{{ code }}</h4>
     <form>
       <input type="text" id="firstValue" v-model="firstValue" />
       <input type="text" id="secondValue" v-model="secondValue" />
@@ -19,6 +22,9 @@ export default {
   data() {
     return {
       title: 'Vue is awesome.',
+      fname: 'Suthichanon',
+      lname: 'Poonkrankay',
+      code: '6404101348',
       firstValue:0,
       secondValue:0,
       answerVulue:0
