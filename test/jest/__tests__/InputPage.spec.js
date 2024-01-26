@@ -16,3 +16,4 @@ test('should show the form element on the user output', () => {
     const wrapper = shallowMount(InputPage)
     expect(wrapper.find('button').exists()).toBe(true)
   })
+
